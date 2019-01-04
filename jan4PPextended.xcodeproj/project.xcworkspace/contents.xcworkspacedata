@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:jan4PPextended.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
