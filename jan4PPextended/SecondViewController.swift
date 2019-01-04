@@ -15,6 +15,7 @@ class SecondViewController: UIViewController {
         }
     }
     
+    // omg i need help
     
     @IBOutlet weak var pageControl: UIPageControl!
     var slides:[Sliden2] = [];
