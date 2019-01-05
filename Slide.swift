@@ -14,13 +14,17 @@ class Slide: UIView {
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var labelDesc: UILabel!
     @IBOutlet weak var labelNumb: UILabel!
-    /*
-     
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+  
+     func viewDidLoad() {
+       
+        imageView.layer.cornerRadius = 10000
+        imageView.clipsToBounds = true
+        imageView.layer.borderWidth = 3
+        imageView.layer.borderColor = UIColor.white.cgColor
     }
-    */
-
+    
+     func didReceiveMemoryWarning() {
+        // Dispose of any resources that can be recreated.
+    }
+    
 }

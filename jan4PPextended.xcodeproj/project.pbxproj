@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		E765003721DF9CA200D5C7FE /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765003621DF9CA200D5C7FE /* Slide.swift */; };
 		E765003921DF9CCD00D5C7FE /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = E765003821DF9CCD00D5C7FE /* Slide.xib */; };
+		E796BB6921E0E5AD009136DB /* Slide2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796BB6821E0E5AD009136DB /* Slide2.swift */; };
+		E796BB6B21E0E5C4009136DB /* Slide2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E796BB6A21E0E5C4009136DB /* Slide2.xib */; };
 		E79F982221DFB38600ED7638 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F982121DFB38600ED7638 /* ThirdViewController.swift */; };
-		E79F982621DFB53B00ED7638 /* Sliden2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F982521DFB53B00ED7638 /* Sliden2.swift */; };
-		E79F982821DFB54800ED7638 /* Sliden2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E79F982721DFB54800ED7638 /* Sliden2.xib */; };
 		E7C90BA221DF93BC00947754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C90BA121DF93BC00947754 /* AppDelegate.swift */; };
 		E7C90BA421DF93BC00947754 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C90BA321DF93BC00947754 /* FirstViewController.swift */; };
 		E7C90BA621DF93BC00947754 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C90BA521DF93BC00947754 /* SecondViewController.swift */; };
@@ -42,9 +42,9 @@
 /* Begin PBXFileReference section */
 		E765003621DF9CA200D5C7FE /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		E765003821DF9CCD00D5C7FE /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		E796BB6821E0E5AD009136DB /* Slide2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide2.swift; sourceTree = "<group>"; };
+		E796BB6A21E0E5C4009136DB /* Slide2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide2.xib; sourceTree = "<group>"; };
 		E79F982121DFB38600ED7638 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		E79F982521DFB53B00ED7638 /* Sliden2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sliden2.swift; sourceTree = "<group>"; };
-		E79F982721DFB54800ED7638 /* Sliden2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Sliden2.xib; sourceTree = "<group>"; };
 		E7C90B9E21DF93BC00947754 /* jan4PPextended.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jan4PPextended.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C90BA121DF93BC00947754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7C90BA321DF93BC00947754 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -89,10 +89,10 @@
 		E7C90B9521DF93BC00947754 = {
 			isa = PBXGroup;
 			children = (
-				E79F982521DFB53B00ED7638 /* Sliden2.swift */,
-				E79F982721DFB54800ED7638 /* Sliden2.xib */,
+				E796BB6A21E0E5C4009136DB /* Slide2.xib */,
 				E765003821DF9CCD00D5C7FE /* Slide.xib */,
 				E765003621DF9CA200D5C7FE /* Slide.swift */,
+				E796BB6821E0E5AD009136DB /* Slide2.swift */,
 				E7C90BA021DF93BC00947754 /* jan4PPextended */,
 				E7C90BB721DF93C500947754 /* jan4PPextendedTests */,
 				E7C90BC221DF93C500947754 /* jan4PPextendedUITests */,
@@ -249,8 +249,8 @@
 			files = (
 				E7C90BAE21DF93C500947754 /* LaunchScreen.storyboard in Resources */,
 				E7C90BAB21DF93C500947754 /* Assets.xcassets in Resources */,
-				E79F982821DFB54800ED7638 /* Sliden2.xib in Resources */,
 				E7C90BA921DF93BC00947754 /* Main.storyboard in Resources */,
+				E796BB6B21E0E5C4009136DB /* Slide2.xib in Resources */,
 				E765003921DF9CCD00D5C7FE /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,8 +279,8 @@
 				E7C90BA621DF93BC00947754 /* SecondViewController.swift in Sources */,
 				E7C90BA221DF93BC00947754 /* AppDelegate.swift in Sources */,
 				E79F982221DFB38600ED7638 /* ThirdViewController.swift in Sources */,
-				E79F982621DFB53B00ED7638 /* Sliden2.swift in Sources */,
 				E7C90BA421DF93BC00947754 /* FirstViewController.swift in Sources */,
+				E796BB6921E0E5AD009136DB /* Slide2.swift in Sources */,
 				E765003721DF9CA200D5C7FE /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
