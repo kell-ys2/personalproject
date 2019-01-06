@@ -40,32 +40,32 @@ class FirstViewController: UIViewController {
         slide1.imageView.image = UIImage(named: "cat1")
         slide1.labelTitle.text = "judas"
         slide1.labelDesc.text = "i brought you frankincesne thankyou/i brought you murr..murrDER"
-        slide1.labelNumb.text = "1/5"
+        slide1.labelNumb.text = " "
         
         let slide2:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
         slide2.imageView.image = UIImage(named: "cat2")
         slide2.labelTitle.text = "hi"
         slide2.labelDesc.text = "my names trey. i got a basketball game tuhmarrow, i play point guard"
-        slide2.labelNumb.text = "2/5"
+        slide2.labelNumb.text = " "
         
         let slide3:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
         slide3.imageView.image = UIImage(named: "cat3")
         slide3.labelTitle.text = "whaddup"
         slide3.labelDesc.text = "im jared im 19 and i dont know how 2 frickin read"
-        slide3.labelNumb.text = "3/5"
+        slide3.labelNumb.text = " "
         
         let slide4:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
         slide4.imageView.image = UIImage(named: "cat4")
         slide4.labelTitle.text = "broom broom"
         slide4.labelDesc.text = "im in me mums car/get out me car/aw"
-        slide4.labelNumb.text = "4/5"
+        slide4.labelNumb.text = " "
         
         
         let slide5:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
         slide5.imageView.image = UIImage(named: "skates5")
         slide5.labelTitle.text = "two bros"
         slide5.labelDesc.text = "chillin in a hot tub, five feet apart cause theyre not gay"
-        slide5.labelNumb.text = "5/5"
+        slide5.labelNumb.text = " "
         
         return [slide1, slide2, slide3, slide4, slide5]
     }

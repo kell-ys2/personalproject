@@ -17,47 +17,48 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ONX-XV-oVK">
-                    <rect key="frame" x="25" y="40" width="325" height="215"/>
+                    <rect key="frame" x="53" y="40" width="279" height="395"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="293" id="Ik6-yc-HE5"/>
+                    </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="judas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzx-jh-6LJ">
-                    <rect key="frame" x="53" y="276" width="268" height="42"/>
-                    <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="26"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="test test test test/test2 test2 test2 test2 etc." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxM-Pt-MRP">
+                    <rect key="frame" x="53" y="391" width="268" height="194"/>
+                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="?/?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6S1-HH-bCl">
-                    <rect key="frame" x="282" y="276" width="77" height="45"/>
+                    <rect key="frame" x="317" y="341" width="15" height="45"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="45" id="9yr-ku-rpZ"/>
+                        <constraint firstAttribute="height" constant="45" id="Vhy-Ep-cZV"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="10"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="test test test test/test2 test2 test2 test2 etc." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxM-Pt-MRP">
-                    <rect key="frame" x="53" y="353" width="268" height="194"/>
-                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="27"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="judas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzx-jh-6LJ">
+                    <rect key="frame" x="53" y="359" width="268" height="42"/>
+                    <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="26"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" red="0.80864071719999997" green="0.86781037110000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
-                <constraint firstItem="gzx-jh-6LJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="53" id="8cm-Er-UWc"/>
-                <constraint firstItem="gzx-jh-6LJ" firstAttribute="trailing" secondItem="pxM-Pt-MRP" secondAttribute="trailing" id="CyQ-cv-fhk"/>
+                <constraint firstItem="gzx-jh-6LJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="53" id="14I-Sp-InI"/>
+                <constraint firstItem="ONX-XV-oVK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1vU-M3-Cgi"/>
+                <constraint firstItem="gzx-jh-6LJ" firstAttribute="trailing" secondItem="pxM-Pt-MRP" secondAttribute="trailing" id="4K8-U0-S2y"/>
                 <constraint firstItem="ONX-XV-oVK" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="FpM-HV-vAW"/>
-                <constraint firstItem="gzx-jh-6LJ" firstAttribute="top" secondItem="ONX-XV-oVK" secondAttribute="bottom" constant="21" id="SfP-eC-Ep8"/>
-                <constraint firstItem="gzx-jh-6LJ" firstAttribute="centerX" secondItem="ONX-XV-oVK" secondAttribute="centerX" id="WV4-17-l3y"/>
-                <constraint firstItem="gzx-jh-6LJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bU1-tj-hly"/>
-                <constraint firstItem="ONX-XV-oVK" firstAttribute="trailing" secondItem="6S1-HH-bCl" secondAttribute="trailing" constant="-9" id="dam-X8-SC9"/>
-                <constraint firstItem="6S1-HH-bCl" firstAttribute="trailing" secondItem="gzx-jh-6LJ" secondAttribute="trailing" constant="38" id="dzf-Qe-KaU"/>
-                <constraint firstItem="pxM-Pt-MRP" firstAttribute="top" secondItem="6S1-HH-bCl" secondAttribute="bottom" constant="32" id="eBI-pl-nTU"/>
-                <constraint firstItem="pxM-Pt-MRP" firstAttribute="top" secondItem="gzx-jh-6LJ" secondAttribute="bottom" constant="35" id="eaX-ep-gBj"/>
-                <constraint firstItem="6S1-HH-bCl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="282" id="fNV-W4-8QV"/>
-                <constraint firstItem="6S1-HH-bCl" firstAttribute="top" secondItem="ONX-XV-oVK" secondAttribute="bottom" constant="21" id="hXo-yp-61X"/>
-                <constraint firstItem="gzx-jh-6LJ" firstAttribute="leading" secondItem="pxM-Pt-MRP" secondAttribute="leading" id="lWv-Xn-Tvx"/>
-                <constraint firstItem="gzx-jh-6LJ" firstAttribute="top" secondItem="ONX-XV-oVK" secondAttribute="bottom" constant="21" id="o14-Hk-8Vo"/>
-                <constraint firstAttribute="bottom" secondItem="6S1-HH-bCl" secondAttribute="bottom" constant="346" id="tTc-Er-haz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="pxM-Pt-MRP" secondAttribute="bottom" constant="120" id="O1T-YL-acD"/>
+                <constraint firstItem="gzx-jh-6LJ" firstAttribute="leading" secondItem="pxM-Pt-MRP" secondAttribute="leading" id="RVm-SC-4wl"/>
+                <constraint firstItem="6S1-HH-bCl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="282" id="T3h-l3-Smd"/>
+                <constraint firstItem="gzx-jh-6LJ" firstAttribute="centerX" secondItem="ONX-XV-oVK" secondAttribute="centerX" id="Xv3-Zy-9gX"/>
+                <constraint firstItem="gzx-jh-6LJ" firstAttribute="top" secondItem="6S1-HH-bCl" secondAttribute="top" id="ZII-Yp-BhX"/>
+                <constraint firstItem="ONX-XV-oVK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="cSP-mA-sXL"/>
+                <constraint firstItem="gzx-jh-6LJ" firstAttribute="top" secondItem="ONX-XV-oVK" secondAttribute="bottom" constant="26" id="tx5-3t-EPz"/>
+                <constraint firstItem="pxM-Pt-MRP" firstAttribute="top" secondItem="gzx-jh-6LJ" secondAttribute="bottom" constant="35" id="w9C-iv-ivI"/>
+                <constraint firstItem="pxM-Pt-MRP" firstAttribute="top" secondItem="6S1-HH-bCl" secondAttribute="bottom" constant="32" id="yfD-fw-MhH"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>

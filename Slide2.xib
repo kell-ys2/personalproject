@@ -16,38 +16,56 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="squareeee" translatesAutoresizingMaskIntoConstraints="NO" id="Zki-ry-zyn">
-                    <rect key="frame" x="41" y="80" width="294" height="246"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="squareeee" translatesAutoresizingMaskIntoConstraints="NO" id="Zki-ry-zyn">
+                    <rect key="frame" x="41" y="80" width="293" height="246"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="246" id="2fL-il-ily"/>
+                    </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;advice advice advicey advice!! im a professional trust me!&quot;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uL6-fV-Wpf">
-                    <rect key="frame" x="91" y="125" width="192" height="156"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="~quote from blank, a blank blank :)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLs-yo-ngb">
+                    <rect key="frame" x="96" y="334" width="238" height="100"/>
+                    <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="22"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3t1-jz-sAd">
-                    <rect key="frame" x="22" y="470" width="330" height="103"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3t1-jz-sAd">
+                    <rect key="frame" x="22" y="470" width="331" height="103"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="103" id="ndw-48-Ziy"/>
+                    </constraints>
                     <string key="text">(putting advice in layman's terms because people are dumb and it's cool to plan ahead sometimes! e.g. other stuff as a cool example)</string>
                     <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~quote from blank, a blank blank :)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLs-yo-ngb">
-                    <rect key="frame" x="96" y="334" width="239" height="100"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="22"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="advice from a functioning human being!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MnJ-7u-6te">
+                    <rect key="frame" x="96" y="117" width="183" height="172"/>
+                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="21"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" red="1" green="0.94055779809999995" blue="0.83483005590000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="Zki-ry-zyn" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="60" id="82y-VC-T6s"/>
+                <constraint firstItem="Zki-ry-zyn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9Wu-4K-Tot"/>
+                <constraint firstItem="Zki-ry-zyn" firstAttribute="trailing" secondItem="RLs-yo-ngb" secondAttribute="trailing" id="Kd3-zY-xeN"/>
+                <constraint firstItem="MnJ-7u-6te" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="97" id="RXN-Er-aZM"/>
+                <constraint firstItem="3t1-jz-sAd" firstAttribute="top" secondItem="RLs-yo-ngb" secondAttribute="bottom" constant="36" id="S5N-wy-uhp"/>
+                <constraint firstItem="Zki-ry-zyn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="41" id="Vvt-Bc-Off"/>
+                <constraint firstItem="3t1-jz-sAd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="22" id="c5e-T0-Gfg"/>
+                <constraint firstItem="RLs-yo-ngb" firstAttribute="top" secondItem="Zki-ry-zyn" secondAttribute="bottom" constant="8" symbolic="YES" id="dtr-N1-1OJ"/>
+                <constraint firstItem="MnJ-7u-6te" firstAttribute="centerY" secondItem="Zki-ry-zyn" secondAttribute="centerY" id="uBK-8P-Zp2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="3t1-jz-sAd" secondAttribute="bottom" constant="94" id="urX-4L-Rn0"/>
+                <constraint firstItem="MnJ-7u-6te" firstAttribute="leading" secondItem="RLs-yo-ngb" secondAttribute="leading" id="wRd-gQ-XA9"/>
+                <constraint firstItem="MnJ-7u-6te" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="96" id="wee-4g-G4C"/>
+                <constraint firstItem="MnJ-7u-6te" firstAttribute="centerX" secondItem="3t1-jz-sAd" secondAttribute="centerX" id="zZp-or-LOc"/>
+                <constraint firstItem="MnJ-7u-6te" firstAttribute="centerX" secondItem="Zki-ry-zyn" secondAttribute="centerX" id="zmE-Ed-5dJ"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="imageViewBorder" destination="Zki-ry-zyn" id="LKp-jD-44H"/>
-                <outlet property="labelAdvice" destination="uL6-fV-Wpf" id="5Jg-el-H1m"/>
+                <outlet property="labelAdvice" destination="MnJ-7u-6te" id="khW-04-M30"/>
                 <outlet property="labelAttribution" destination="RLs-yo-ngb" id="uCw-07-SfN"/>
                 <outlet property="labelCasual" destination="3t1-jz-sAd" id="7In-ot-uZm"/>
             </connections>

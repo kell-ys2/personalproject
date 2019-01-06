@@ -10,6 +10,17 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+ 
+    @IBOutlet weak var answerQuestion1: UITextField!
+    @IBOutlet weak var answerQuestion2: UITextField!
+    @IBOutlet weak var answerQuestion3: UITextField!
+    @IBOutlet weak var answerQuestion4: UITextField!
+    @IBOutlet weak var answerQuestion5: UITextField!
+    @IBOutlet weak var answerQuestion6: UITextField!
+    
+    @IBOutlet weak var answerQuestion7: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
