@@ -107,7 +107,7 @@
                                             </label>
                                             <textField autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="note: this doesn't actually do anything" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Fd-Jf-6pL">
                                                 <rect key="frame" x="17" y="226" width="291" height="30"/>
-                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -189,15 +189,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaC-Ua-rit">
                                                 <rect key="frame" x="166" y="1121" width="40" height="30"/>
                                                 <state key="normal" title="reset!"/>
+                                                <connections>
+                                                    <action selector="resetButton:" destination="fZZ-O9-I3s" eventType="touchUpInside" id="H3J-Fa-tXC"/>
+                                                </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="questions to think about!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xff-wK-DcT">
-                                                <rect key="frame" x="113" y="28" width="146" height="71"/>
-                                                <color key="backgroundColor" red="0.8379647617012782" green="0.94971446700507611" blue="0.7798060089350578" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
-                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="23"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="      " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k42-AR-guH">
                                                 <rect key="frame" x="113" y="565" width="117" height="69"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -219,6 +214,14 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="questions to think about!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xff-wK-DcT">
+                                                <rect key="frame" x="63" y="40" width="245" height="102"/>
+                                                <color key="backgroundColor" red="0.8379647617012782" green="0.94971446700507611" blue="0.7798060089350578" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="29"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.78039215689999997" green="0.91764705879999997" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -308,6 +311,16 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="bns-ao-KpP"/>
                     <size key="freeformSize" width="375" height="1200"/>
+                    <connections>
+                        <outlet property="ansField1" destination="3Fd-Jf-6pL" id="udt-sW-mXH"/>
+                        <outlet property="ansField2" destination="gH6-R2-966" id="pyt-BP-Qnl"/>
+                        <outlet property="ansField3" destination="LMY-UA-axi" id="viM-eR-vRi"/>
+                        <outlet property="ansField4" destination="o44-Il-pti" id="au9-kM-boX"/>
+                        <outlet property="ansField5" destination="XXH-iU-gGd" id="HdL-XH-Dz2"/>
+                        <outlet property="ansField6" destination="zlK-Pa-wAx" id="uVB-xC-RbS"/>
+                        <outlet property="ansField7" destination="lVt-kB-uMF" id="2hB-hx-4e3"/>
+                        <outlet property="resetButton" destination="UaC-Ua-rit" id="5gs-Kb-7wV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kH9-AX-LVq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

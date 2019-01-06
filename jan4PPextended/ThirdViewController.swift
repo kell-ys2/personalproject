@@ -10,20 +10,30 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    @IBOutlet weak var ansField1: UITextField!
+    @IBOutlet weak var ansField2: UITextField!
+    @IBOutlet weak var ansField3: UITextField!
+    @IBOutlet weak var ansField4: UITextField!
+    @IBOutlet weak var ansField5: UITextField!
+    @IBOutlet weak var ansField6: UITextField!
+    @IBOutlet weak var ansField7: UITextField!
+    @IBOutlet weak var resetButton: UIButton!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        
-        
-        /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func resetButton(_ sender: UIButton) {
+        ansField1.text = ""
+        ansField2.text = ""
+        ansField3.text = ""
+        ansField4.text = ""
+        ansField5.text = ""
+        ansField6.text = ""
+        ansField7.text = ""
+    
     }
-    */
+
+ override func viewDidLoad() {
+    super.viewDidLoad()
+
+}
+
 
 }

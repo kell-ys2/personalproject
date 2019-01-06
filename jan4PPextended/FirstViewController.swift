@@ -37,37 +37,48 @@ class FirstViewController: UIViewController {
     func createSlides() -> [Slide] {
         
         let slide1:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-        slide1.imageView.image = UIImage(named: "cat1")
-        slide1.labelTitle.text = "judas"
-        slide1.labelDesc.text = "i brought you frankincesne thankyou/i brought you murr..murrDER"
-        slide1.labelNumb.text = " "
+        slide1.imageView.image = UIImage(named: "placeholder1")
+        slide1.labelTitle.text = "How Breathing Helps"
+        slide1.labelDesc.text = "Deep breathing increases the supply of oxygen to your brain and stimulates an autonomic nervous system, which promotes a calm and slows your heart rate."
+        slide1.labelNumb.text = "gif from destressmonday.org"
         
         let slide2:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-        slide2.imageView.image = UIImage(named: "cat2")
-        slide2.labelTitle.text = "hi"
-        slide2.labelDesc.text = "my names trey. i got a basketball game tuhmarrow, i play point guard"
-        slide2.labelNumb.text = " "
+        slide2.imageView.image = UIImage(named: "placeholder2")
+        slide2.labelTitle.text = "How Breathing Helps"
+        slide2.labelDesc.text = "Deep breathing also slows down the release of cortisol, a major stress hormone that is created by the adrenal glands as your body's fight-or-flight response. "
+        slide2.labelNumb.text = "gif from destressmonday.org"
         
         let slide3:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-        slide3.imageView.image = UIImage(named: "cat3")
-        slide3.labelTitle.text = "whaddup"
-        slide3.labelDesc.text = "im jared im 19 and i dont know how 2 frickin read"
-        slide3.labelNumb.text = " "
+        slide3.imageView.image = UIImage(named: "placeholder3")
+        slide3.labelTitle.text = "How Breathing Helps"
+        slide3.labelDesc.text = "Deep breathing helps relax tension you didn't realise you were holding (such as clenching your jaw or tightening your shoulders)"
+        slide3.labelNumb.text = "gif from destressmonday.org"
         
         let slide4:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-        slide4.imageView.image = UIImage(named: "cat4")
-        slide4.labelTitle.text = "broom broom"
-        slide4.labelDesc.text = "im in me mums car/get out me car/aw"
-        slide4.labelNumb.text = " "
-        
+        slide4.imageView.image = UIImage(named: "placeholder4")
+        slide4.labelTitle.text = "How Breathing Helps"
+        slide4.labelDesc.text = "Hyperventilation disrupts the balance of oxygen in your body, making the symptoms of stress worse. Deep breathing remedies that!"
+        slide3.labelNumb.text = "gif from destressmonday.org"
         
         let slide5:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-        slide5.imageView.image = UIImage(named: "skates5")
-        slide5.labelTitle.text = "two bros"
-        slide5.labelDesc.text = "chillin in a hot tub, five feet apart cause theyre not gay"
-        slide5.labelNumb.text = " "
+        slide5.imageView.image = UIImage(named: "placeholder5")
+        slide5.labelTitle.text = "How Breathing Helps"
+        slide5.labelDesc.text = "Deep breathing increases the supply of oxygen to your brain and stimulates an autonomic nervous system, which promotes a calm and slows your heart rate."
+        slide5.labelNumb.text = "gif from destressmonday.org"
         
-        return [slide1, slide2, slide3, slide4, slide5]
+        let slide6:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
+        slide6.imageView.image = UIImage(named: "placeholder6")
+        slide6.labelTitle.text = "How Breathing Helps"
+        slide6.labelDesc.text = "placeholder for information that i can't be bothered to paste in atm because i'm a terrible student!11@!!11"
+        slide6.labelNumb.text = "gif from destressmonday.org"
+        
+        let slide7:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
+        slide7.imageView.image = UIImage(named: "placeholder7")
+        slide7.labelTitle.text = "How Breathing Helps"
+        slide7.labelDesc.text = "placeholder once again because im lazy and disorganised and also cannot be bothered."
+        slide7.labelNumb.text = "gif from destressmonday.org"
+        
+        return [slide1, slide2, slide3, slide4, slide5, slide6, slide7]
     }
     
     
