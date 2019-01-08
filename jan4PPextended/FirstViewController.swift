@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import SwiftyGif
 
 class FirstViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!{
         didSet{
             scrollView.delegate = self as? UIScrollViewDelegate
         }
+        
+        
     }
    
+
     
     @IBOutlet weak var pageControl: UIPageControl!
     var slides:[Slide] = [];
@@ -27,17 +31,24 @@ class FirstViewController: UIViewController {
         pageControl.numberOfPages = slides.count
         pageControl.currentPage = 0
         view.bringSubviewToFront(pageControl)
+        
+     
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
+       
     }
     
-    
+  
     func createSlides() -> [Slide] {
         
+        let gif1 = UIImage(gifName: "breathing1.gif")
+        let gif2 = UIImage(gifName: "breathing2.gif")
+        
         let slide1:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-        slide1.imageView.image = UIImage(named: "placeholder1")
+        slide1.imageView.setGifImage(gif1)
         slide1.labelTitle.text = "How Breathing Helps"
         slide1.labelDesc.text = "Deep breathing increases the supply of oxygen to your brain and stimulates an autonomic nervous system, which promotes a calm and slows your heart rate."
         slide1.labelNumb.text = "gif from destressmonday.org"
