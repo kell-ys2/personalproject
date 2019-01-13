@@ -39,21 +39,21 @@ class SecondViewController: UIViewController, UIScrollViewDelegate {
        func createSlides() -> [Slide2] {
         
         let slide1:Slide2 = Bundle.main.loadNibNamed("Slide2", owner: self, options: nil)?.first as! Slide2
-        slide1.labelAdvice.text = "You need to be prepared for every single question."
-        slide1.labelCasual.text = "Try the affirmation page for general topic questions, so you can test yourself!"
-        slide1.labelAttribution.text = "- by blah blah blah"
+        slide1.labelAdvice.text = "You need to be prepared for any questions. Make sure you are knowledgeable and prepared enough to answer!"
+        slide1.labelCasual.text = "Try the tips page for general topic questions, so you can test yourself!"
+        slide1.labelAttribution.text = "- Cassandra Ip, Commissioner of the 1st Hong Kong Canadian Scout Group"
         slide1.imageViewBorder.image = UIImage(named: "squareeee")
         
         let slide2:Slide2 = Bundle.main.loadNibNamed("Slide2", owner: self, options: nil)?.first as! Slide2
         slide2.labelAdvice.text = "Know your audience. Every aspect of your presentation depends on how your audience responds!"
-        slide2.labelCasual.text = "Make sure you're aware of who you're presenting to!"
-        slide2.labelAttribution.text = "- by blah blah blah"
+        slide2.labelCasual.text = "Make sure you're aware of who you're presenting to! Your audience is very important"
+        slide2.labelAttribution.text = "- by Siu Tong Chan, Justice of Peace and District Councilman of Yau Tsim Mong"
         slide2.imageViewBorder.image = UIImage(named: "squareeee")
         
         let slide3:Slide2 = Bundle.main.loadNibNamed("Slide2", owner: self, options: nil)?.first as! Slide2
-        slide3.labelAdvice.text = "info goes here"
-        slide3.labelCasual.text = "further stuff goes here"
-        slide3.labelAttribution.text = "- by blah blah blah"
+        slide3.labelAdvice.text = "Practice, practice, practice! Present in front of the mirror or in front of someone you trust, and accept constructive criticism!"
+        slide3.labelCasual.text = "Don't be scared to ask about what you should do better or how you can be more engaging! "
+        slide3.labelAttribution.text = "- by Baker McKenzie Partner, Head of Global Financial Services Regulatory Practice"
         slide3.imageViewBorder.image = UIImage(named: "squareeee")
         
         let slide4:Slide2 = Bundle.main.loadNibNamed("Slide2", owner: self, options: nil)?.first as! Slide2

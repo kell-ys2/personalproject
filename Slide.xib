@@ -16,9 +16,6 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ONX-XV-oVK">
-                    <rect key="frame" x="28" y="30" width="317" height="316"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="whatever whatever whatever whatever whatever whatever whatever whatever whatever whatever whatever whatever whatever whatever " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxM-Pt-MRP">
                     <rect key="frame" x="53" y="436" width="268" height="194"/>
                     <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
@@ -37,6 +34,9 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ONX-XV-oVK">
+                    <rect key="frame" x="27.741517314055159" y="29" width="317.00000000000006" height="317.00000000000006"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="0.80864071719999997" green="0.86781037110000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>

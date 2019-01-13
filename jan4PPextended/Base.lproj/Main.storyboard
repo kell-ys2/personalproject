@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Breathing-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="jan4PPextended" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                         <color key="backgroundColor" red="0.80864071719999997" green="0.86781037110000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Breathing" image="cloud" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="pageControl" destination="zh8-HY-oBf" id="Apt-Cd-HWy"/>
                         <outlet property="scrollView" destination="X8p-4R-0hy" id="3nK-Kh-lki"/>
@@ -42,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="-705.69715142428788"/>
         </scene>
-        <!--Second-->
+        <!--Advice-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="jan4PPextended" customModuleProvider="target" sceneMemberID="viewController">
@@ -71,7 +71,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Advice" image="collaboration" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="pageControl" destination="8Mh-Or-29r" id="U1B-mr-OgT"/>
                         <outlet property="scrollView" destination="C16-gK-YdN" id="gwq-QY-lec"/>
@@ -309,7 +309,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mUp-8r-7Kc"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bns-ao-KpP"/>
+                    <tabBarItem key="tabBarItem" title="Tips" image="order" id="bns-ao-KpP"/>
                     <size key="freeformSize" width="375" height="1200"/>
                     <connections>
                         <outlet property="ansField1" destination="3Fd-Jf-6pL" id="udt-sW-mXH"/>
@@ -347,7 +347,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="cloud" width="30" height="30"/>
+        <image name="collaboration" width="30" height="30"/>
+        <image name="order" width="30" height="30"/>
     </resources>
 </document>
